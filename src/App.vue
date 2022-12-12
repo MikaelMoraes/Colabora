@@ -1,19 +1,19 @@
 <template>
   <div class="p-2">
-    <HomeColabora/>
+    <PaginaInicial/>
   </div>
   
 </template>
 
 <script>
 
-import HomeColabora from './components/layouts/HomeColabora.vue'
+import PaginaInicial from './components/layouts/PaginaInicial.vue'
 
 
 export default {
   name: 'App',
   components: {
-    HomeColabora
+    PaginaInicial
   }
 }
 </script>
