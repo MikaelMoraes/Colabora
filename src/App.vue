@@ -1,20 +1,19 @@
 <template>
   <div class="p-2">
-    <PaginaInicial/>
+    <router-view/>
+    
   </div>
   
 </template>
 
 <script>
 
-import PaginaInicial from './components/layouts/PaginaInicial.vue'
+
 
 
 export default {
   name: 'App',
-  components: {
-    PaginaInicial
-  }
+
 }
 </script>
 

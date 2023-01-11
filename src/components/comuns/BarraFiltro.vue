@@ -3,7 +3,7 @@
           <h1 class="text-white">Colabore com:</h1>
         </div>
         <div class="col-6 col-md-3 offset-md-6 align-self-center text-end">
-            <button class=" cinzaFosco bg-transparent border-0 fs-4" type="button"><fa icon="arrow-down-short-wide"/></button>
+            <button class=" cinzaFosco bg-transparent border-0 fs-4" type="button"><i class="bi bi-filter "></i></button>
         </div>
   </template>
     
@@ -15,6 +15,12 @@
     
     
   <style >
+    h1{
+      font-size: 10;
+    }
+    .bi-filter{
+      font-size: 50px;
+    }
     .cinzaFosco{
         color: #707070;
     }

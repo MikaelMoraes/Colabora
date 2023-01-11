@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router.js'
 import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faChevronDown, faArrowDownShortWide, faUser, faCode } from '@fortawesome/free-solid-svg-icons'
@@ -9,6 +10,12 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 library.add(faChevronDown, faArrowDownShortWide, faUser, faCode );
 library.add(faReact, faHtml5);
 
-createApp(App)
+const Vue = createApp(App)
+Vue.use(router)
 .component('fa', FontAwesomeIcon)
-.mount('#app')
+Vue.mount('#app')
+
+
+
+
+

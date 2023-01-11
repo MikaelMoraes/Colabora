@@ -6,7 +6,7 @@
                 <div class="accordion-header" id="headingOne">
                   <div class="row mt-3">
                     <div class="col-2 col-md-2 col-lg-2">
-                      <fa class="fs-1" icon="user"/>
+                      <img  src="./../../assets/Ellipse1.png" class="w-100">
                     </div>
                     <div class="col-9 col-md-9 col-lg-9 text-start">
                       <h2 class="text-white text-left">João Pereira</h2>
@@ -15,16 +15,16 @@
                     <div class="col-1 col-md-1 col-lg-1">
                       <button class="button text-light bg-transparent border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
                         aria-expanded="true" aria-controls="collapseOne">
-                        <fa icon="chevron-down"/>
+                        <i class="bi bi-caret-down-fill"></i>
                       </button>
                     </div>
                   </div>
                   <div class="row mt-3 ">
                     <div class="col-2 col-md-2  text-start">
-                      <fa class="fs-2" icon="code"/>
+                      <img  src="./../../assets/physics1.png" class="w-75">
                     </div>
                     <div class="col-2 col-md-2 text-start">
-                      <fa class="fs-2 text-primary" icon="code"/>
+                      <img  src="./../../assets/physics1.png" class="w-75">
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@
                 <div class="accordion-header" id="headingTwo">
                   <div class="row mt-3">
                     <div class="col-2 col-md-2 col-lg-2">
-                      <fa class="fs-1" icon="user"/>
+                      <img  src="./../../assets/Ellipse1.png" class="w-100">
                     </div>
                     <div class="col-9 col-md-9 col-lg-9 text-start">
                       <h2 class="text-white">João Pereira</h2>
@@ -53,16 +53,16 @@
                     <div class="col-1 col-md-1 col-lg-1">
                       <button class="button text-light bg-transparent border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
                         aria-expanded="true" aria-controls="collapseTwo">
-                        <fa icon="chevron-down"/>
+                        <i class="bi bi-caret-down-fill"></i>
                       </button>
                     </div>
                   </div>
                   <div class="row mt-3 ">
                     <div class="col-2 col-md-2  text-start">
-                      <fa class="fs-2" icon="code"/>
+                      <img  src="./../../assets/physics1.png" class="w-75">
                     </div>
                     <div class="col-2 col-md-2 text-start">
-                      <fa class="fs-2 text-primary" icon="code"/>
+                      <img  src="./../../assets/physics1.png" class="w-75">
                     </div>
                   </div>
                 </div>
