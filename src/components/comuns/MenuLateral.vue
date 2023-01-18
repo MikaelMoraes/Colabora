@@ -40,9 +40,20 @@
                         <div class="col-10 mt-2 ">
                             <span class="redesSociais">Villarinho-Gui (Villa) (github.com)</span>
                         </div>
-                    </div>
-                    
+                    </div> 
                 </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-md-6 offset-md-3">
+                    <img src="@/assets/physics1.png" class="w-25">
+                    <img src="@/assets/physics1.png" class="w-25">
+                    <img src="@/assets/physics1.png" class="w-25">
+                </div>
+            </div>
+            <div class="row">
+                    <div class="d-grid gap-2  p-4"> 
+                        <a href="#" class="btn btn-perfil py-4 mb-5">Editar Perfil</a>
+                    </div>
             </div>
         </div>
 
@@ -86,6 +97,10 @@ export default {
 }
 .textoCinza{
  color:#A7A7A7;
+}
+.btn-perfil{
+    color: white;
+    background-color: #6B6B6B;
 }
 
 
