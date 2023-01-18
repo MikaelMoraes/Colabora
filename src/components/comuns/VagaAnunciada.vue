@@ -32,7 +32,6 @@
                   data-bs-parent="#accordionExample">
                   <div class="accordion-body ">
                     <div class="d-grid gap-2 mt-4"><a href="#" class="btn verde">Entrar em Contato</a></div>
-  
                   </div>
                 </div>
               </div>

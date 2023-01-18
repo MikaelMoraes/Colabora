@@ -1,17 +1,14 @@
 <template>
-    <div class="offcanvas offcanvas-start show w-25 fundoCanvas" data-bs-scroll="true" data-bs-backdrop="false"
-        tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
-        <div class="offcanvas-header" :style="{ backgroundImage: 'url(' + require('@/assets/fundo.png') + ')' }">
-            <div class="row justify-content-center pt-5">
-                <div class="col-3 align-self-end">
+  
+        <div class="col-3 fundoCanvas  d-none d-xl-block d-lg-block d-md-block ">
+             <div class="row justify-content-center pt-5" :style="{ backgroundImage: 'url(' + require('@/assets/fundo.png') + ')' }">
+                <div class="col-12 col-lg-3   align-self-end">
                     <img src="./../../assets/vilarinho.png" class="w-100">
                 </div>
                 <div class="col-9 align-self-end ">
                     <span class="text-white "><strong>Guilherme Oliveira Villarinho</strong> (Villa) </span>
                 </div>
             </div>
-        </div>
-        <div class="offcanvas-body">
             <div class="row m-3">
                 <div class="col-12 bordaCinza py-3 px-3">
                     <span class="textoCinza">strong Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -21,7 +18,7 @@
             <div class="row m-3">
                 <div class="col-12 py-3 px-3 bordaCinza">
                     <div class="row align-self-center text-white my-4">
-                        <div class="col-2  ">
+                        <div class="col-12 col-lg-2 col-md-2  ">
                             <i class="bi bi-github"></i>
                         </div>
                         <div class="col-10 mt-2 ">
@@ -29,7 +26,7 @@
                         </div>
                     </div>
                     <div class="row align-self-center text-white my-4">
-                        <div class="col-2  ">
+                        <div class="col-12 col-lg-2 col-md-2  ">
                             <i class="bi bi-linkedin"></i>
                         </div>
                         <div class="col-10 mt-2 ">
@@ -37,7 +34,7 @@
                         </div>
                     </div>
                     <div class="row align-self-center text-white my-4">
-                        <div class="col-2  ">
+                        <div class="col-12 col-lg-2 col-md-2  ">
                             <i class="bi bi-discord"></i>
                         </div>
                         <div class="col-10 mt-2 ">
@@ -48,7 +45,10 @@
                 </div>
             </div>
         </div>
-    </div>
+
+
+     
+
 
 
 </template>

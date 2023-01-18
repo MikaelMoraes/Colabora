@@ -1,10 +1,12 @@
 <template>
+  <div class="row align-items-center mt-3">
         <div class="col-6 col-md-3 text-start">
-          <h1 class="text-white">Colabore com:</h1>
+          <h2 class="text-white">Colabore com:</h2>
         </div>
         <div class="col-6 col-md-3 offset-md-6 align-self-center text-end">
             <button class=" cinzaFosco bg-transparent border-0 fs-4" type="button"><i class="bi bi-filter "></i></button>
         </div>
+      </div>
   </template>
     
   <script>
@@ -14,7 +16,7 @@
   </script>
     
     
-  <style >
+  <style scoped >
     h1{
       font-size: 10;
     }

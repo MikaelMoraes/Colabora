@@ -2,7 +2,6 @@
     <div>
         <body>
             <div class="container">
-                <!-- /.login-logo -->
                 <div class="card card-position card-color" style="width: 18rem;">
                     <div class="card-body">
                         <form>
@@ -15,7 +14,7 @@
                             <div class="row">
                                 
                                 <div class="col-12 ">
-                                    <router-link to="/feed"   class="btn btn-lg btn-purple text-white btn-block" type="submit">Entrar</router-link>
+                                    <a class="btn btn-lg btn-purple text-white btn-block" type="submit" @click="navegarPara()">Entrar</a>
                                 </div>
                                 
                             </div>
@@ -44,6 +43,14 @@
 <script>
 export default {
     name: 'LoginColab',
+
+    methods:{
+        navegarPara(){
+            //console.log(this.$router)
+            this.$router.push('/feed')
+        }
+
+    }
 }
 </script>
 <style>
